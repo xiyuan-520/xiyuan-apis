@@ -1,0 +1,33 @@
+<#var zhiqim.css="https://zhiqim-org.oss-cn-shenzhen.aliyuncs.com/service/res/zhiqim_v1.5.0.r2019010101.css"/>
+<#var zhiqim.js="https://zhiqim-org.oss-cn-shenzhen.aliyuncs.com/service/res/zhiqim_v1.5.0.r2019010101.min.js"/>
+<#var zhiqim.mobile.css= "https://zhiqim-org.oss-cn-shenzhen.aliyuncs.com/service/res/zhiqim.mobile_v1.5.0.r2019010101.css"/>
+<#var zhiqim.mobile.js= "https://zhiqim-org.oss-cn-shenzhen.aliyuncs.com//service/res/zhiqim.mobile_v1.5.0.r2019010101.min.js"/>
+<#var zhiqim_uploadlarge.js="https://zhiqim-org.oss-cn-shenzhen.aliyuncs.com/service/res/zhiqim_upload_large_v1.5.0.r2018082701.js"/>
+
+
+
+
+
+<#--头部起始-->
+<#function header()>
+<!DOCTYPE html>
+<html>
+<head>
+<title>${context.getContextName()}<#if Validates.isNotEmpty(title)>_${title}</#if></title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+<meta name="Author" content="${context.getContextName()}" />
+${Styles.src(zhiqim.css)}
+${Scripts.src(zhiqim.js)}
+</head>
+<body>
+</#function>
+
+<#var path = request.getPathInContext()/>
+<#--主页脚注-->
+<#function footer()>
+</body>
+</html>
+</#function>

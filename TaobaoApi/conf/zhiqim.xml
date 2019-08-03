@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ZHIQIM-CONFIG PUBLIC "-//ZHIQIM //DTD Zhiqim-Config Configuration 1.5.0//EN" "http://zhiqim.org/xmldtds/zhiqim_config_1_5_0.dtd">
+<zhiqim-config>
+
+    <group id="boot" desc="系统启动配置">
+        <item key="name" value="产品管理" type="protected" desc="系统名称" />
+        <item key="version" value="V1.0" type="protected" desc="系统版本" />
+        <item key="port" value="50081" type="protected" desc="系统监听端口，用于启动监听和命令关闭工程" />
+        <item key="process" value="zhiqim_product" type="protected" desc="使用的进程名，MAC系统下该配置无效" />
+        <item key="args" value="-server -Xms64m -Xmx256m" type="protected" desc="JVM参数" />
+        <item key="libext" value="./libex" type="protected" desc="除./lib目录外额外需要加载的库目录，多个逗号隔开" />
+        <item key="include" value="*/lib/*,*/bin" type="protected" desc="扫描包含库模式，多个用逗号隔开，星号表示通配符，本地环境加*/bin" />
+    </group>
+
+    <group id="config" desc="系统其他配置文件，./开头表示工程相对路径下，绝对路径使用/或d:/等(Windows也使用顺斜杠作路径)">
+        <item key="logging" value="./conf/logging.xml" type="protected" desc="日志配置文件" />
+        <item key="httpd" value="./conf/httpd.xml" type="protected" desc="WEB配置" />
+    </group>
+
+    <group id="service" desc="系统服务配置，有依赖时注意顺序，系统按顺序加载，按倒序销毁">
+        <item key="logging" value="org.zhiqim.kernel.logging.LogServer" type="protected" desc="日志服务" />
+        <item key="cutter" value="org.zhiqim.kernel.logging.LogLinuxNohupCutter" type="protected" desc="日志Linux切割服务" />
+        <item key="taobao" value="com.xiyuan.taobao.api.TaobaoServer" type="protected" desc="淘宝服务" />
+        <item key="resource" value="org.zhiqim.httpd.HttpServer" type="protected" desc="web服务" />
+    </group>
+    
+    <group desc="taobao配置" id="taobao">
+        <item key="appApiUrl" value="https://gw.api.taobao.com/router/rest" type="protected" desc="应用API调用地址" />
+        <item key="appTokenUrl" value="https://oauth.taobao.com/token" type="protected" desc="应用登录认证和刷新授权调用地址" />
+        <item key="appAuthorizeUrl" value="https://oauth.taobao.com/authorize" type="protected" desc="应用登录授权地址" />
+        <item key="appRedirectUrl" value="http://test.redxyz.com:88/taobaologin.htm" type="protected" desc="应用授权回调地址" />
+        <item key="forwardUrl" value="http://order.redxyz.com/topForward.htm" type="protected" desc="TOP透传URL" />
+        <item key="appKey" value="12644408" type="protected" desc="应用编码" />
+        <item key="appSecret" value="ea781bb6f9742239b7e0726fdd22df13" type="protected" desc="应用密钥" />
+        <item key="appInvokeNum" value="3000000" type="protected" desc="应用每天调用量" />
+        <item key="articleCode" value="ts-29914-3" type="protected" desc="收费代码,测试环境填空" />
+
+        
+        <item key="secretServerUrl" value="https://eco.taobao.com/router/rest" type="protected" desc="获取解密秘钥地址" />
+        <item key="randomNumber" value="ioSP1a0n16aRAEUBHVaHWcCXPqRk+A2n1NrdCSzW9xU=" type="protected" desc="存储加密安全码" />
+        <item key="secretForwardUrl" value="http://order.redxyz.com/topSecretForward.htm" type="protected" desc="存储加密TOP透传URL" />
+    </group>
+</zhiqim-config>

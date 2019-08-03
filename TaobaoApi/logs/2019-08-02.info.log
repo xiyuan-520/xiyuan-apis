@@ -1,0 +1,512 @@
+﻿2019-08-02 15:11:17,002 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:11:17,003 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:11:17,098 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:11:17,141 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:11:17,141]
+2019-08-02 15:11:17,151 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:11:17,151]
+2019-08-02 15:11:17,153 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:11:17,153]
+2019-08-02 15:11:17,159 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:11:17,159 [main] INFO - <action name="首页" path="/index.htm" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:11:17,160 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:11:17,166 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:11:17,166]
+2019-08-02 15:11:17,166 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:11:17,168 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:11:26,576 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:39,254 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:39,958 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:40,163 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:40,378 [resource-4] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:40,569 [resource-5] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:40,748 [resource-6] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:11:40,927 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/
+2019-08-02 15:12:10,006 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:12:11,379 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:14,252 [resource-9] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:14,788 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:15,181 [resource-4] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:15,381 [resource-5] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:15,555 [resource-6] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:15,736 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:15,904 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:50,654 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:51,295 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:51,502 [resource-11] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:51,701 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:12:51,901 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/index.htm
+2019-08-02 15:13:03,007 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[3]=WS[0]+活动[3]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:15:23,483 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:15:23,484 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:15:23,563 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:15:23,596 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:15:23,595]
+2019-08-02 15:15:23,604 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:15:23,603]
+2019-08-02 15:15:23,605 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:15:23,604]
+2019-08-02 15:15:23,610 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:15:23,611 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:15:23,612 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:15:23,617 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:15:23,616]
+2019-08-02 15:15:23,617 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:15:23,618 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:15:30,083 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:16:16,485 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:17:09,489 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:18:02,490 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:18:55,492 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:19:48,494 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:20:41,495 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:21:34,495 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:22:27,496 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:23:04,027 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:23:04,028 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:23:04,108 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:23:04,139 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:23:04,138]
+2019-08-02 15:23:04,148 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:23:04,147]
+2019-08-02 15:23:04,149 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:23:04,148]
+2019-08-02 15:23:04,153 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:23:04,154 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:23:04,155 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:23:04,160 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:23:04,160]
+2019-08-02 15:23:04,161 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:23:04,163 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:23:17,334 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:23:57,029 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[3]=WS[0]+活动[3]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:24:27,178 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:25:42,460 [main] INFO - 淘宝服务初始化完成
+2019-08-02 15:25:42,461 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:25:42,462 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:25:42,547 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:25:42,583 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:25:42,583]
+2019-08-02 15:25:42,592 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:25:42,591]
+2019-08-02 15:25:42,593 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:25:42,592]
+2019-08-02 15:25:42,602 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:25:42,603 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:25:42,604 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:25:42,611 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:25:42,611]
+2019-08-02 15:25:42,612 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:25:42,613 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:26:19,660 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:27:33,199 [main] INFO - 淘宝服务初始化完成
+2019-08-02 15:27:33,200 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:27:33,204 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:27:33,289 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:27:33,327 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:27:33,327]
+2019-08-02 15:27:33,335 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:27:33,334]
+2019-08-02 15:27:33,336 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:27:33,335]
+2019-08-02 15:27:33,348 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:27:33,349 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:27:33,349 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:27:33,355 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:27:33,355]
+2019-08-02 15:27:33,356 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:27:33,357 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:28:24,337 [resource-20] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:28:26,205 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:29:05,184 [resource-4] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:29:19,207 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[3]=WS[0]+活动[3]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:29:39,223 [resource-6] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=n1B51Kpa06vm358sj0fV5Xz54300136&state=state
+2019-08-02 15:30:12,208 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[5]=WS[0]+活动[5]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:30:48,603 [resource-15] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=n1B51Kpa06vm358sj0fV5Xz54300136&state=state
+2019-08-02 15:31:05,209 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[5]=WS[0]+活动[5]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:31:16,006 [resource-4] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=n1B51Kpa06vm358sj0fV5Xz54300136&state=state
+2019-08-02 15:31:44,609 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=n1B51Kpa06vm358sj0fV5Xz54300136&state=state
+2019-08-02 15:31:45,725 [resource-12] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=n1B51Kpa06vm358sj0fV5Xz54300136&state=state
+2019-08-02 15:31:46,395 [resource-19] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=n1B51Kpa06vm358sj0fV5Xz54300136&state=state
+2019-08-02 15:31:58,213 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[7]=WS[0]+活动[7]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:32:44,647 [main] INFO - 淘宝服务初始化完成
+2019-08-02 15:32:44,648 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:32:44,651 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:32:44,744 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:32:44,779 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:32:44,779]
+2019-08-02 15:32:44,789 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:32:44,788]
+2019-08-02 15:32:44,791 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:32:44,789]
+2019-08-02 15:32:44,804 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:32:44,805 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:32:44,805 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 15:32:44,812 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:32:44,811]
+2019-08-02 15:32:44,813 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:32:44,814 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:36:13,460 [main] INFO - 淘宝服务初始化完成
+2019-08-02 15:36:13,461 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 15:36:13,462 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:36:13,554 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:36:13,591 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 15:36:13,589]
+2019-08-02 15:36:13,599 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 15:36:13,599]
+2019-08-02 15:36:13,600 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 15:36:13,600]
+2019-08-02 15:36:13,606 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 15:36:13,606 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 15:36:13,607 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 15:36:13,613 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 15:36:13,612]
+2019-08-02 15:36:13,613 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 15:36:13,614 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 15:36:30,208 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/ 拦截器已拦截
+2019-08-02 15:36:34,668 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mwa1fuqgiXsIGbRCNugiRktc4326771&state=state
+2019-08-02 15:37:06,464 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:37:59,465 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:38:52,467 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:39:38,068 [resource-16] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mwa1fuqgiXsIGbRCNugiRktc4326771&state=state
+2019-08-02 15:39:45,469 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:40:14,139 [resource-15] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mwa1fuqgiXsIGbRCNugiRktc4326771&state=state
+2019-08-02 15:40:38,472 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[3]=WS[0]+活动[3]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:41:31,473 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:42:24,474 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:43:03,811 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mwa1fuqgiXsIGbRCNugiRktc4326771&state=state
+2019-08-02 15:43:05,963 [resource-11] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mwa1fuqgiXsIGbRCNugiRktc4326771&state=state
+2019-08-02 15:43:17,476 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[3]=WS[0]+活动[3]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:44:10,477 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:45:03,478 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:45:56,478 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:46:13,555 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:46:49,498 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:47:21,956 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mwa1fuqgiXsIGbRCNugiRktc4326771&state=state
+2019-08-02 15:47:42,499 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:47:45,719 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=k1vktJid4WoV7SnXYByzffj94332964&state=state
+2019-08-02 15:47:55,174 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 15:48:35,501 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:48:45,963 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=mQX6ewc110Cdk1HXq8ajsM244300167&state=state
+2019-08-02 15:48:46,078 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 15:49:28,501 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[5]=WS[0]+活动[5]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:49:59,825 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=htW5GwJc6yLVuznh2Y3Di3XN4412227&state=state
+2019-08-02 15:49:59,909 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 15:50:06,044 [resource-18] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=oT5eQA8aMBoVbMqS82s3z8Fq4334419&state=state
+2019-08-02 15:50:06,148 [resource-7] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 15:50:21,506 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[5]=WS[0]+活动[5]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:51:14,507 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:52:07,509 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:53:00,509 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:53:53,510 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:54:46,510 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:55:39,512 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:56:13,555 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 15:56:32,513 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:57:25,514 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:58:18,517 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 15:59:11,519 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:00:04,519 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:00:57,520 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:01:50,520 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:02:43,520 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:03:36,521 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:04:29,523 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:05:22,526 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:06:13,556 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:06:15,529 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:07:08,529 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:08:01,530 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:08:54,533 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:09:47,536 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:10:40,538 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:11:33,538 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:12:26,539 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:13:19,540 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:14:12,541 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:15:05,542 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[4]=WS[0]+活动[4]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:15:21,397 [main] INFO - 淘宝服务初始化完成
+2019-08-02 16:15:21,397 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 16:15:21,399 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:15:21,482 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:15:21,518 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 16:15:21,517]
+2019-08-02 16:15:21,527 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 16:15:21,527]
+2019-08-02 16:15:21,529 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 16:15:21,528]
+2019-08-02 16:15:21,537 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 16:15:21,539 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 16:15:29,336 [main] INFO - 淘宝服务初始化完成
+2019-08-02 16:15:29,337 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 16:15:29,338 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:15:29,420 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:15:29,475 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 16:15:29,474]
+2019-08-02 16:15:29,486 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 16:15:29,485]
+2019-08-02 16:15:29,488 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 16:15:29,487]
+2019-08-02 16:15:29,503 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 16:15:29,504 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 16:15:29,505 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 16:15:29,513 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 16:15:29,511]
+2019-08-02 16:15:29,513 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 16:15:29,515 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 16:16:22,339 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:16:47,440 [main] INFO - 淘宝服务初始化完成
+2019-08-02 16:16:47,440 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 16:16:47,441 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:16:47,558 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:16:47,630 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 16:16:47,629]
+2019-08-02 16:16:47,644 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 16:16:47,641]
+2019-08-02 16:16:47,646 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 16:16:47,644]
+2019-08-02 16:16:47,662 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 16:16:47,663 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 16:16:47,663 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 16:16:47,664 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 16:16:47,670 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 16:16:47,670]
+2019-08-02 16:16:47,671 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 16:16:47,673 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 16:17:40,442 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:18:10,171 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=8B0KTOLW44rVKa3IRW5ikW9m4324050&state=state
+2019-08-02 16:18:10,326 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 16:18:33,444 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:19:10,883 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=Eqh5If18oMlkrJHxfQ00YWQy4393091&state=state
+2019-08-02 16:19:10,970 [resource-20] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 16:19:26,445 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:20:19,448 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:21:12,450 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:22:05,452 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:22:58,453 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:23:51,456 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:24:44,457 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:25:37,460 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:26:30,461 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:26:47,559 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:27:23,461 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:27:58,335 [main] INFO - 淘宝服务初始化完成
+2019-08-02 16:27:58,336 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 16:27:58,336 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:27:58,421 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:27:58,460 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 16:27:58,459]
+2019-08-02 16:27:58,469 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 16:27:58,469]
+2019-08-02 16:27:58,472 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 16:27:58,470]
+2019-08-02 16:27:58,479 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 16:27:58,480 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 16:27:58,481 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 16:27:58,483 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 16:27:58,491 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 16:27:58,490]
+2019-08-02 16:27:58,491 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 16:27:58,492 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 16:28:51,337 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:29:44,339 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:30:37,341 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:31:30,342 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:32:23,345 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:33:16,345 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:34:09,348 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:35:02,350 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:35:55,351 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:36:48,352 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:37:41,354 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:37:58,431 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:38:34,354 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:39:27,354 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:40:20,357 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:41:13,358 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:42:06,359 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:42:59,362 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:43:52,363 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:44:45,365 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:45:38,366 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:46:31,368 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:47:24,369 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:47:58,432 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:48:17,370 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:49:10,371 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:50:03,372 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:50:56,373 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:51:49,374 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:52:42,377 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:53:35,379 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:54:28,382 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:55:21,385 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:56:14,388 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:57:07,390 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:57:58,434 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 16:58:00,391 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:58:53,394 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 16:59:46,396 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:00:39,397 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:01:32,399 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:02:25,400 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:03:18,401 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:04:11,403 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:05:04,404 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:05:57,405 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:06:50,406 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:07:43,408 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:07:58,434 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:08:36,409 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:09:29,410 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:10:22,411 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:11:15,413 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:12:08,415 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:13:01,415 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:13:54,417 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:14:47,420 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:15:40,421 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:16:33,428 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:17:26,428 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:17:58,435 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:18:19,430 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:19:12,431 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:20:05,432 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:20:58,435 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:21:51,435 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:22:44,435 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:23:37,437 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:24:30,437 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:25:23,440 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:26:16,445 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:27:09,445 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:27:58,437 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:28:02,446 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:28:55,447 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:29:48,448 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:30:41,449 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:31:34,450 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:32:27,452 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:33:20,452 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:34:13,456 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:35:06,457 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:35:59,459 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:36:52,465 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:37:45,476 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:37:58,439 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:38:38,478 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:39:31,479 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:40:24,480 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:41:17,480 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:42:10,482 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:43:03,482 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:43:56,482 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:44:49,484 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:45:42,487 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:46:35,488 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:47:28,489 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:47:58,441 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:48:11,305 [main] INFO - 淘宝服务初始化完成
+2019-08-02 17:48:11,306 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 17:48:11,308 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:48:11,394 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:48:11,424 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 17:48:11,424]
+2019-08-02 17:48:11,432 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 17:48:11,432]
+2019-08-02 17:48:11,433 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 17:48:11,433]
+2019-08-02 17:48:11,440 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 17:48:11,441 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 17:48:11,442 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 17:48:11,443 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 17:48:11,449 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 17:48:11,449]
+2019-08-02 17:48:11,450 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 17:48:11,451 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 17:49:04,308 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:49:57,309 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:50:50,311 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:51:19,140 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=c7CGVj2f3umYncBA1KFEkiUn4385440&state=state
+2019-08-02 17:51:19,292 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 17:51:43,311 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:52:36,312 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:53:29,312 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:54:22,314 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:55:15,314 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:56:08,316 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:57:01,316 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:57:54,316 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:58:11,395 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:58:47,317 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:59:23,488 [main] INFO - 淘宝服务初始化完成
+2019-08-02 17:59:23,489 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 17:59:23,489 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 17:59:23,576 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 17:59:23,607 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 17:59:23,607]
+2019-08-02 17:59:23,615 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 17:59:23,614]
+2019-08-02 17:59:23,616 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 17:59:23,615]
+2019-08-02 17:59:23,624 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 17:59:23,624 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 17:59:23,624 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 17:59:23,625 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 17:59:23,631 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 17:59:23,630]
+2019-08-02 17:59:23,631 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 17:59:23,632 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 18:00:16,491 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:01:09,494 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:01:11,509 [main] INFO - 淘宝服务初始化完成
+2019-08-02 18:01:11,509 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 18:01:11,510 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:01:11,595 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 18:01:11,626 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 18:01:11,626]
+2019-08-02 18:01:11,634 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 18:01:11,633]
+2019-08-02 18:01:11,635 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 18:01:11,634]
+2019-08-02 18:01:11,641 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 18:01:11,642 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 18:01:11,642 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 18:01:11,643 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 18:01:11,648 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 18:01:11,648]
+2019-08-02 18:01:11,649 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 18:01:11,649 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 18:01:33,982 [main] INFO - 淘宝服务初始化完成
+2019-08-02 18:01:33,982 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 18:01:33,983 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:01:34,066 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 18:01:34,099 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 18:01:34,099]
+2019-08-02 18:01:34,109 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 18:01:34,108]
+2019-08-02 18:01:34,110 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 18:01:34,109]
+2019-08-02 18:01:34,115 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 18:01:34,115 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 18:01:34,115 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 18:01:34,116 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 18:01:34,124 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 18:01:34,123]
+2019-08-02 18:01:34,124 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 18:01:34,127 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 18:02:26,983 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:03:19,985 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:04:12,985 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:05:05,988 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:05:58,990 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:06:51,991 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:07:44,996 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:07:52,291 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=yyj1Smvz0aAAbYjxXMVXEDzO4361128&state=state
+2019-08-02 18:07:52,466 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:08:37,997 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:08:41,519 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=fjP1HqTCAlYzyCiCynLuNQ0Z4471029&state=state
+2019-08-02 18:08:41,604 [resource-16] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:09:30,999 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:10:23,999 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:10:46,584 [main] INFO - 淘宝服务初始化完成
+2019-08-02 18:10:46,585 [main] INFO - 初始化[HTTP服务:resource]开始...
+2019-08-02 18:10:46,586 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[0]=WS[0]+活动[0]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:10:46,669 [Controller-resource] INFO - 线程池[name:resource,min:20,max:200,cur:20,active:0,queue:0,idleTime:600]
+2019-08-02 18:10:46,702 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]开始...[2019-08-02 18:10:46,702]
+2019-08-02 18:10:46,711 [main] INFO - 初始化[HTTP服务:resource][ZML引擎]结束!!![2019-08-02 18:10:46,710]
+2019-08-02 18:10:46,712 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]开始...[2019-08-02 18:10:46,711]
+2019-08-02 18:10:46,715 [main] INFO - <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter" />
+2019-08-02 18:10:46,716 [main] INFO - <action name="首页" path="/index.htm" interceptor="chklogin" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+2019-08-02 18:10:46,716 [main] INFO - <action name="首页" path="/error.htm" view="/zview/error.zml" />
+2019-08-02 18:10:46,717 [main] INFO - <action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+2019-08-02 18:10:46,724 [main] INFO - 初始化[HTTP服务:resource][Context:产品管理]完成!!![2019-08-02 18:10:46,723]
+2019-08-02 18:10:46,724 [main] INFO - 初始化[HTTP服务:resource]http监听:[name:resource;port:88]完成!!!
+
+2019-08-02 18:10:46,725 [main] INFO - 系统[产品管理]-版本[V1.0]初始化完成!!!
+
+2019-08-02 18:11:39,587 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:11:46,240 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=7aHfwvkhdC6HxqVD14AkJ4DX4469380&state=state
+2019-08-02 18:11:46,369 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:12:02,434 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=7eo6vmcdI62GWqGNPKBDdcv44391752&state=state
+2019-08-02 18:12:02,519 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:12:09,645 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=2E0w8JzhQMsinHhLQwqfF5LP4358925&state=state
+2019-08-02 18:12:09,728 [resource-2] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:12:13,278 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=YUQUPuZI3dIe5ci6v1h77lNF4356266&state=state
+2019-08-02 18:12:13,355 [resource-1] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:12:32,589 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[2]=WS[0]+活动[2]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:13:25,589 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:14:18,591 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:14:39,996 [resource-3] INFO - USER:guest IP:127.0.0.1 URI:/taobaologin.htm?code=ZHBm4UtQloLySJUAjWBLS6sT4392091&state=state
+2019-08-02 18:14:40,465 [resource-6] INFO - USER:guest IP:127.0.0.1 URI:/index.htm 拦截器已拦截
+2019-08-02 18:15:11,592 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[3]=WS[0]+活动[3]+空闲[0]，允许空闲[53]秒
+2019-08-02 18:16:04,597 [Interval-org.zhiqim.httpd.bio.HttpBioListener] INFO - 允许最大连接[200]，当前总连接[1]=WS[0]+活动[1]+空闲[0]，允许空闲[53]秒

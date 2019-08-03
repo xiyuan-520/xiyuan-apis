@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/taobao_top"/>
+	<classpathentry kind="src" path="src/taobao_test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry kind="lib" path="lib/zhiqim_httpd.jar" sourcepath="D:/_gitee/zhiqim/V1.5.0/ZhiqimDK/zhiqim_httpd-src.jar"/>
+	<classpathentry kind="lib" path="lib/zhiqim_orm.jar"/>
+	<classpathentry kind="lib" path="lib/zhiqim_ui.jar"/>
+	<classpathentry kind="lib" path="lib/zhiqim_zml.jar"/>
+	<classpathentry kind="lib" path="lib/zhiqim.jar" sourcepath="D:/_gitee/zhiqim/V1.5.0/ZhiqimDK/zhiqim-src.jar"/>
+	<classpathentry kind="lib" path="libext/aliyun-sdk-oss-2.8.2-sources.jar"/>
+	<classpathentry kind="lib" path="libext/aliyun-sdk-oss-2.8.2.jar"/>
+	<classpathentry kind="lib" path="libext/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="libext/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libext/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libext/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="libext/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libext/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libext/iText-2.1.2u.jar"/>
+	<classpathentry kind="lib" path="libext/javax.mail.jar"/>
+	<classpathentry kind="lib" path="libext/jdom-1.1.jar"/>
+	<classpathentry kind="lib" path="libext/taobao-sdk-ump.jar"/>
+	<classpathentry kind="lib" path="libext/top-schema-1.2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

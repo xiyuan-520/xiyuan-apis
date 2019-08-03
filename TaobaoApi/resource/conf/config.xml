@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ZHIQIM-CONTEXT PUBLIC "-//ZHIQIM //DTD Zhiqim-Context Configuration 1.5.0//EN" "http://zhiqim.org/xmldtds/zhiqim_context_1_5_0.dtd">
+<zhiqim-context>
+
+    <interceptor name="登录拦截器" key="chklogin" class="com.xiyuan.action.Intercepter"/>
+	<action name="首页" interceptor="chklogin" path="/index.htm" view="/zview/index.zml" class="com.xiyuan.action.IndexAction" />
+	<action name="首页" path="/error.htm" view="/zview/error.zml"/>
+	<action name="login" path="/taobaologin.htm" class="com.xiyuan.action.LoginAction" />
+</zhiqim-context>
