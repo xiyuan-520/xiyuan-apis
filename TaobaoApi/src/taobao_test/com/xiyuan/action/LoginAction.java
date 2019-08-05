@@ -6,6 +6,7 @@ import org.zhiqim.kernel.httpclient.HttpResult;
 import org.zhiqim.kernel.logging.Log;
 import org.zhiqim.kernel.logging.LogFactory;
 import org.zhiqim.kernel.util.Asserts;
+import org.zhiqim.kernel.util.DateTimes;
 import org.zhiqim.kernel.util.Validates;
 
 import com.xiyuan.taobao.api.TaobaoServer;
@@ -71,6 +72,8 @@ public class LoginAction implements Action
             request.setRedirectTop(errorUrl);
             return;
         }
+        
+        System.out.println(sessionToken.getAccessToken());
         request.setRedirectTop(redirectUrl);
     }
 

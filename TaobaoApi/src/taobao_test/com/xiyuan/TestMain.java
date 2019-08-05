@@ -78,7 +78,7 @@ public class TestMain
         UserBuyerGetRequest req = new UserBuyerGetRequest();
         req.setFields("nick,sex");
 //        req.setSession("6201009f5f4214985ZZ679ZZ6a4e00a4974ce917bc7fce93349213359");
-        req.setSession("6200a096135623b30ZZd89gib03f43c5b44d621774e6adc3349213359");
+        req.setSession(  "6201a02d30ZZ43cZZc4f10770cb222bfb180483b4f23b0b3349213359");
         TaobaoClient client = new TaobaoClient();
         TaobaoResponse resp = client.execute(req);
         System.out.println(resp.isSuccess());

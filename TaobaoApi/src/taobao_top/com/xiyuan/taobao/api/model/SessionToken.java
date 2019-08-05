@@ -1,41 +1,50 @@
 package com.xiyuan.taobao.api.model;
 
+import org.zhiqim.kernel.extend.HashMapSS;
 import org.zhiqim.kernel.json.Jsons;
+import org.zhiqim.kernel.util.Ints;
 import org.zhiqim.kernel.util.Urls;
 import org.zhiqim.kernel.util.Validates;
 
 public class SessionToken
 {
+
     private String token;
-    private String userId;
-    private String nick;
-    private String sessionId;
-    private int expiresIn;
-    private int expiresInR1;
-    private int expiresInR2;
-    private int expiresInW1;
-    private int expiresInW2;
-    private String refreshToken;
-    private int reExpiresIn;
-    private String subNick;
+    private String accessToken;// Access token
+    private String tokenType;// Access token
+    private int expiresIn;// Access token过期时间 单位秒
+    private String refreshToken;// Refresh token，可用来刷新access_token
+    private int reExpiresIn;// Refresh token过期时间
+    private int r1ExpiresIn;// r1级别API或字段的访问过期时间；
+    private int r2ExpiresIn;// r2级别API或字段的访问过期时间；
+    private int w1ExpiresIn;// w1级别API或字段的访问过期时间；
+    private int w2ExpiresIn;// w2级别API或字段的访问过期时间；
+    private String nick;// 淘宝账号,主账号；
+    private String userId;// 淘宝帐号对应id
+    private String subUserId;// 淘宝子账号对应id
+    private String subNick;// 淘宝子账号
 
     public static SessionToken parseSessionToken(String token)
     {
         token = Urls.decodeUTF8(token);
         token = Jsons.removeBlankSpace(token);
+
+        HashMapSS map = Jsons.toMapSS(token);
         SessionToken sessionToken = new SessionToken();
         sessionToken.token = token;
-        sessionToken.userId = Jsons.getString(token, "taobao_user_id");
-        sessionToken.nick = Jsons.getString(token, "taobao_user_nick");
-        sessionToken.sessionId = Jsons.getString(token, "access_token");
-        sessionToken.expiresIn = Jsons.getInt(token, "expires_in");
-        sessionToken.expiresInR1 = Jsons.getInt(token, "r1_expires_in");
-        sessionToken.expiresInR2 = Jsons.getInt(token, "r2_expires_in");
-        sessionToken.expiresInW1 = Jsons.getInt(token, "w1_expires_in");
-        sessionToken.expiresInW2 = Jsons.getInt(token, "w2_expires_in");
-        sessionToken.refreshToken = Jsons.getString(token, "refresh_token");
-        sessionToken.reExpiresIn = Jsons.getInt(token, "re_expires_in");
-        sessionToken.subNick = Jsons.getString(token, "sub_taobao_user_nick");
+        sessionToken.tokenType = map.get("token_type");
+        sessionToken.accessToken = map.get("access_token");
+        sessionToken.expiresIn = Ints.toInt(map.get("expires_in"), 0);
+        sessionToken.refreshToken = map.get("refresh_token");
+        sessionToken.reExpiresIn = Ints.toInt(map.get("re_expires_in"), 0);
+        sessionToken.r1ExpiresIn = Ints.toInt(map.get("r1_expires_in"), 0);
+        sessionToken.r2ExpiresIn = Ints.toInt(map.get("r2_expires_in"), 0);
+        sessionToken.w1ExpiresIn = Ints.toInt(map.get("w1_expires_in"), 0);
+        sessionToken.w2ExpiresIn = Ints.toInt(map.get("w2_expires_in"), 0);
+        sessionToken.nick = map.get("taobao_user_nick");
+        sessionToken.userId = map.get("taobao_user_id");
+        sessionToken.subUserId = map.get("sub_taobao_user_id");
+        sessionToken.subNick = map.get("sub_taobao_user_nick");
 
         return sessionToken;
     }
@@ -52,24 +61,23 @@ public class SessionToken
 
     public boolean isInValidParam()
     {
-        if ((!Validates.isEmpty(this.sessionId)) && (!Validates.isEmpty(this.refreshToken)) && (this.expiresIn != -1) && (this.expiresInR1 != -1))
-        {
-            if (this.expiresInW1 != -1)
-            {
-                if (this.reExpiresIn != -1)
-                {
-                    return false;
-                }
-            }
-        }
-        return
 
-        true;
+        if ((!Validates.isEmpty(this.getSessionId())) && (!Validates.isEmpty(this.refreshToken)) && (this.expiresIn != 0) && (this.r1ExpiresIn != 0))
+        {
+            if (this.w1ExpiresIn != 0 && this.reExpiresIn != 0)
+                return false;
+        }
+        return true;
     }
 
     public boolean hasSubNick()
     {
         return Validates.isNotEmpty(this.subNick);
+    }
+
+    public String getSessionId()
+    {
+        return this.accessToken;
     }
 
     public String getNickLogined()
@@ -79,66 +87,72 @@ public class SessionToken
 
     public String getToken()
     {
-        return this.token;
+        return token;
     }
 
-    public String getUserId()
+    public String getAccessToken()
     {
-        return this.userId;
+        return accessToken;
     }
 
-    public String getNick()
+    public String getTokenType()
     {
-        return this.nick;
-    }
-
-    public String getSessionId()
-    {
-        return this.sessionId;
+        return tokenType;
     }
 
     public int getExpiresIn()
     {
-        return this.expiresIn;
-    }
-
-    public int getExpiresInR1()
-    {
-        return this.expiresInR1;
-    }
-
-    public int getExpiresInR2()
-    {
-        return this.expiresInR2;
-    }
-
-    public int getExpiresInW1()
-    {
-        return this.expiresInW1;
-    }
-
-    public int getExpiresInW2()
-    {
-        return this.expiresInW2;
-    }
-
-    public void setExpiresInW2(int expiresInW2)
-    {
-        this.expiresInW2 = expiresInW2;
+        return expiresIn;
     }
 
     public String getRefreshToken()
     {
-        return this.refreshToken;
+        return refreshToken;
     }
 
     public int getReExpiresIn()
     {
-        return this.reExpiresIn;
+        return reExpiresIn;
+    }
+
+    public int getR1ExpiresIn()
+    {
+        return r1ExpiresIn;
+    }
+
+    public int getR2ExpiresIn()
+    {
+        return r2ExpiresIn;
+    }
+
+    public int getW1ExpiresIn()
+    {
+        return w1ExpiresIn;
+    }
+
+    public int getW2ExpiresIn()
+    {
+        return w2ExpiresIn;
+    }
+
+    public String getNick()
+    {
+        return nick;
+    }
+
+    public String getUserId()
+    {
+        return userId;
+    }
+
+    public String getSubUserId()
+    {
+        return subUserId;
     }
 
     public String getSubNick()
     {
-        return this.subNick;
+        return subNick;
     }
+
 }
