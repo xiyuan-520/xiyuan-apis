@@ -1,160 +1,186 @@
 package com.xiyuan.taobao.api;
 
-import org.zhiqim.kernel.json.Jsons;
-import org.zhiqim.kernel.util.Validates;
+import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
 
-/***
- * 相应基类
+import com.xiyuan.taobao.api.internal.mapping.ApiField;
+import com.xiyuan.taobao.api.internal.mapping.DingTalkErrorField;
+import com.xiyuan.taobao.api.internal.mapping.QimenErrorField;
+import com.xiyuan.taobao.api.internal.mapping.TopErrorField;
+
+/**
+ * TOPAPI基础响应信息。
  * 
- * @version v1.0.0 @author longguizhi 2018-12-2 新建与整理
+ * @author fengsheng
  */
+public abstract class TaobaoResponse implements Serializable {
 
-public abstract class TaobaoResponse
-{
-    private ErrorResponse error;
-    private String responseText;
+	private static final long serialVersionUID = 5014379068811962022L;
 
-    /***留给子类实现**/
-    protected abstract void buildResponse(String paramString);
+	@QimenErrorField("code")
+	private String code;
 
-    public void buildResponseError(int code, String msg, String subCode, String subMsg, String args)
-    {
-        this.error = new ErrorResponse(code, msg, subCode, subMsg, args);
-    }
+	@QimenErrorField("message")
+	private String message;
 
-    public void buildResponseText(String responseText)
-    {
-        this.responseText = responseText;
-        if (responseText.indexOf("error_response") != -1)
-        {
-            int code = Jsons.getInt(responseText, "code");
-            String msg = Jsons.getString(responseText, "msg");
-            String subCode = Jsons.getString(responseText, "sub_code");
-            String subMsg = Jsons.getString(responseText, "sub_msg");
-            String args = Jsons.getArray(responseText, "arg");
+	@TopErrorField("code")
+	@QimenErrorField("code")
+	@DingTalkErrorField("errcode")
+	private String errorCode;
 
-            this.error = new ErrorResponse(code, msg, subCode, subMsg, args);
-        }
-        else
-        {
-            buildResponse(responseText);
-        }
-    }
+	@TopErrorField("msg")
+	@QimenErrorField("message")
+	@DingTalkErrorField("errmsg")
+	private String msg;
 
-    public boolean isSuccess()
-    {
-        return this.error == null;
-    }
+	@TopErrorField("sub_code")
+	@QimenErrorField("sub_code")
+	private String subCode;
 
-    public int getErrorCode()
-    {
-        if (this.error == null)
-        {
-            return 0;
-        }
-        return this.error.getCode();
-    }
+	@TopErrorField("sub_msg")
+	@QimenErrorField("sub_message")
+	private String subMsg;
 
-    public String getSubCode()
-    {
-        if (this.error == null)
-        {
-            return "unknown";
-        }
-        return this.error.getSubCode();
-    }
+	@QimenErrorField("sub_message")
+	private String subMessage;
 
-    public String getErrorMsg()
-    {
-        if (this.error == null)
-        {
-            return "unknown";
-        }
-        if (!Validates.isEmptyBlank(this.error.getSubMsg()))
-        {
-            return this.error.getSubMsg();
-        }
-        return this.error.getMsg();
-    }
+	@QimenErrorField("flag")
+	private String flag;
 
-    public boolean isConnectionReset()
-    {
-        if (this.error == null)
-        {
-            return false;
-        }
-        return "Connection reset".equals(this.error.getMsg());
-    }
+	@TopErrorField("request_id")
+	@QimenErrorField("request_id")
+	private String requestId;
 
-    public boolean isBusinessRateFail()
-    {
-        if (this.error == null)
-        {
-            return false;
-        }
-        String subCode = this.error.getSubCode();
-        if ("isv.rate-service-error:bussiness".equals(subCode))
-        {
-            return true;
-        }
-        return false;
-    }
+	@QimenErrorField("type")
+	private String qimenType;
 
-    public boolean isUserFail()
-    {
-        return this.error == null ? false : this.error.isUserFail();
-    }
+	private String body; // API响应JSON或XML串
 
-    public boolean isW2()
-    {
-        if (this.error == null)
-        {
-            return false;
-        }
-        String subCode = this.error.getSubCode();
-        if ("isv.w2-security-authorize-invalid".equals(subCode))
-        {
-            return true;
-        }
-        return false;
-    }
+	private Map<String, String> headerContent; // 响应头
 
-    public boolean isTaobaoFail()
-    {
-        return this.error == null ? false : this.error.isTaobaoFail();
-    }
+	/**
+	 * API请求URL(不包含body)
+	 */
+	private String requestUrl;
 
-    public boolean isGetFail()
-    {
-        return this.error == null ? false : this.error.isGetFail();
-    }
+	private Map<String, String> params; // API请求参数列表
 
-    public boolean isUpdateFail()
-    {
-        return this.error == null ? false : this.error.isUpdateFail();
-    }
+	public String getErrorCode() {
+		return errorCode;
+	}
 
-    public boolean hasNoPermission()
-    {
-        return this.error == null ? false : this.error.hasNoPermission();
-    }
+	public void setErrorCode(String errorCode) {
+		this.errorCode = errorCode;
+	}
 
-    public boolean isNotExist()
-    {
-        return this.error == null ? false : this.error.isNotExist();
-    }
+	public String getMsg() {
+		return msg;
+	}
 
-    public ErrorResponse getError()
-    {
-        return this.error;
-    }
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
 
-    public String toString()
-    {
-        if (this.error != null)
-        {
-            return this.error.toString();
-        }
-        return this.responseText;
-    }
+	public String getSubCode() {
+		return this.subCode;
+	}
+
+	public void setSubCode(String subCode) {
+		this.subCode = subCode;
+	}
+
+	public String getSubMsg() {
+		return this.subMsg;
+	}
+
+	public void setSubMsg(String subMsg) {
+		this.subMsg = subMsg;
+	}
+
+	public String getBody() {
+		return body;
+	}
+
+	public void setBody(String body) {
+		this.body = body;
+	}
+
+	public Map<String, String> getParams() {
+		return params;
+	}
+
+	public void setParams(Map<String, String> params) {
+		this.params = params;
+	}
+
+	public boolean isSuccess() {
+		return (this.errorCode == null || this.errorCode.isEmpty()|| this.errorCode.equals("0"))
+				&& (this.subCode == null || this.subCode.isEmpty())
+				&& (this.flag == null || this.flag.isEmpty());
+	}
+
+	public String getRequestId() {
+		return requestId;
+	}
+
+	public void setRequestId(String requestId) {
+		this.requestId = requestId;
+	}
+
+	public String getFlag() {
+		return flag;
+	}
+
+	public void setFlag(String flag) {
+		this.flag = flag;
+	}
+
+	public String getQimenType() {
+		return qimenType;
+	}
+
+	public void setQimenType(String qimenType) {
+		this.qimenType = qimenType;
+	}
+
+	public String getRequestUrl() {
+		return requestUrl;
+	}
+
+	public void setRequestUrl(String requestUrl) {
+		this.requestUrl = requestUrl;
+	}
+
+	public Map<String, String> getHeaderContent() {
+		return headerContent;
+	}
+
+	public void setHeaderContent(Map<String, String> headerContent) {
+		this.headerContent = headerContent;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public String getSubMessage() {
+		return subMessage;
+	}
+
+	public void setSubMessage(String subMessage) {
+		this.subMessage = subMessage;
+	}
 }
